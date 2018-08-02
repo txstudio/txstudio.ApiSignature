@@ -78,5 +78,10 @@ namespace txstudio.ApiSignature
             return _signature;
         }
 
+        public long GetTimeStamp()
+        {
+            return this._timeStampGenerator.GetTimeStamp();
+        }
+
     }
 }
